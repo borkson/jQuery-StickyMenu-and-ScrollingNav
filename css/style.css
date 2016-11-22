@@ -65,12 +65,6 @@ span {
     .bgImg {
         height: 25vh;
     }
-    img {
-        height: 70vh;
-    }
-    .container {
-        width: 95%;
-    }
     li a {
         font-size: 0.75em;
         margin: 0 0.5em;
@@ -82,17 +76,11 @@ span {
 
 @media only screen and (min-width: 700px) and (max-width:899px) {
     .bgImg {
-        height: 30vh;
+        height: 25vh;
     }
     li a {
         font-size: 1em;
         margin: 0 2em;
-    }
-    img {
-        height: 80vh;
-    }
-    .container {
-        width: 90%;
     }
 }
 
@@ -101,24 +89,12 @@ span {
         font-size: 1em;
         margin: 0 3em;
     }
-    img {
-        height: 85vh;
-    }
-    .container {
-        width: 85%;
-    }
 }
 
 @media only screen and (min-width: 1201) and (max-width:2499px) {
     li a {
         font-size: 2em;
         margin: 0 4em;
-    }
-    img {
-        height: 90vh;
-    }
-    .container {
-        width: 80%;
     }
 }
 
