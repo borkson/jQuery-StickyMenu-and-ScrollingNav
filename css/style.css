@@ -66,7 +66,10 @@ span {
         height: 25vh;
     }
     img {
-        height: 75%;
+        height: 70vh;
+    }
+    .container {
+        width: 95%;
     }
     li a {
         font-size: 0.75em;
@@ -85,6 +88,12 @@ span {
         font-size: 1em;
         margin: 0 2em;
     }
+    img {
+        height: 80vh;
+    }
+    .container {
+        width: 90%;
+    }
 }
 
 @media only screen and (min-width: 900px) and (max-width:1200px) {
@@ -92,12 +101,24 @@ span {
         font-size: 1em;
         margin: 0 3em;
     }
+    img {
+        height: 85vh;
+    }
+    .container {
+        width: 85%;
+    }
 }
 
 @media only screen and (min-width: 1201) and (max-width:2499px) {
     li a {
         font-size: 2em;
         margin: 0 4em;
+    }
+    img {
+        height: 90vh;
+    }
+    .container {
+        width: 80%;
     }
 }
 
