@@ -6,13 +6,14 @@ body {
 }
 
 .bgImg {
-    background-image: url("../images/header.jpg");
+    background-image: url(https://photos-5.dropbox.com/t/2/AADU81iHgkJh3aH2anz6NrRtr5kBSm0f1rYfTYQWxLIr3Q/12/1306984/jpeg/32x32/1/_/1/2/header.jpg/EOTvjQEY0aeeygIgBygH/2j7PjEP3TCH8Z8f_a9k4KxdwQtLWK-CeYJQaU5bY4B8?size=2048x1536&size_mode=3);
     background-size: cover;
     height: 50vh;
 }
 
 img {
     width: 100%;
+    padding: 1em 0;
 }
 
 .container {
