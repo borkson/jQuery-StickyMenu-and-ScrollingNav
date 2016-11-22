@@ -1,0 +1,109 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    background-color: #FFF5EE;
+}
+
+.bgImg {
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    height: 50vh;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+nav {
+    width: 75%;
+    height: 3.125em;
+    margin: 0.6em auto;
+}
+
+nav .menu {
+    background-color: #A52A2A;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 5em;
+    font-weight: 700;
+    line-height: 3.125em;
+}
+
+a:hover {
+    color: #FFA500;
+    transition: all ease 0.4s;
+}
+
+span {
+    color: #FFA500;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 75%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 699px) {
+    .bgImg {
+        height: 25vh;
+    }
+    img {
+        height: 75%;
+    }
+    li a {
+        font-size: 0.75em;
+        margin: 0 0.5em;
+    }
+    h2 {
+        font-size: 1.1em
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width:899px) {
+    .bgImg {
+        height: 30vh;
+    }
+    li a {
+        font-size: 1em;
+        margin: 0 2em;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1200px) {
+    li a {
+        font-size: 1em;
+        margin: 0 3em;
+    }
+}
+
+@media only screen and (min-width: 1201) and (max-width:2499px) {
+    li a {
+        font-size: 2em;
+        margin: 0 4em;
+    }
+}
+
+@media only screen and (min-width: 2500px) {
+    li a {
+        font-size: 2em;
+        margin: 0 5em;
+    }
+}
