@@ -4,6 +4,7 @@ $(function() {
     var menu = $('.menu');
     var menuLinks = menu.find('a');
     var menuTop = menu.offset().top;
+    var navHeight = nav.outerHeight();
 
     //sticky menu
     $(window).on('scroll', function() {
@@ -28,7 +29,7 @@ $(function() {
         e.preventDefault();
         var aValue = $(this).attr('href');
         $('html, body').animate({
-            scrollTop: $(aValue).offset().top
+            scrollTop: $(aValue).offset().top - navHeight
         }, 700);
     })
 
